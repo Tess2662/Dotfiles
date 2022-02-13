@@ -1,0 +1,39 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+
+#TabsToolbar {
+	 height:35px !important;
+}
+
+.tab-label-container {
+    mask-image: initial !important;
+}
+
+.tab-content, .urlbar-input-box {
+	font-size: 0.8em;
+}
+
+.tab-close-button {
+	display: none;
+}
+
+.tabbrowser-tab:hover .tab-close-button {
+	display: inline-block;
+}
+
+.browser-toolbar:not(.titlebar-color) {
+	background-image: initial !important;;
+}
+
+#personal-toolbar-empty-description, #PersonalToolbar .toolbarbutton-1, toolbarbutton.bookmark-item:not(.subviewbutton {
+	margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
