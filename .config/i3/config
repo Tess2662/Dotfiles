@@ -242,10 +242,13 @@ bindsym $mod+y move position center
 hide_edge_borders smart
 workspace_auto_back_and_forth yes
 bindsym $mod+Shift+t exec --no-startup-id google-chrome-stable https://teams.microsoft.com/_#/school/teams-grid/General?ctx=teamsGrid
-bindsym mod4+Shift+s exec --no-startup-id flameshot gui
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+bindsym $mod+Print exec --no-startup-id flameshot full -c
 exec_always --no-startup-id setxkbmap cz
-exec_always --no-startup-id feh --bg-fill /home/tereza/Pictures/color_arch.png
+exec_always --no-startup-id feh --bg-fill /home/tereza/Pictures/night.jpg
 bindsym $mod+b border toggle
+bindsym $mod+m workspace next
+bindsym $mod+n workspace prev
 #bindsym XF86TouchpadOn
 assign [class="firefox"] 3
 assign [class="jetbrains-*"] 4
