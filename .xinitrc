@@ -59,5 +59,5 @@ if [[ $(tty) = /dev/tty2 ]]
 then
 	exec qtile start;
 else
-	exec i3 -V -d all 2> "$(date +%Y-%d-%m).i3.log"
+	exec i3 -V -d all 2> "/var/log/i3/$(date +%Y-%m-%d).log"
 fi	
